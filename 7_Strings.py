@@ -1,4 +1,5 @@
 # String is a data type in python.
+# Strings are immutable
 # String is a sequence of characters enclosed in quotes.
 # We can primarily write a string in these three ways.
 # a ='John' # Single quoted string
@@ -50,6 +51,16 @@ print(name[-1:-4:-1])#leh
 # move left (step = -1)
 
 # stop before -4 → so it collects "l", "e", "h"
+
+# SLICING WITH SKIP VALUE
+# We can provide a skip value as a part of our slice like this:
+word = "amazing"
+word[1: 6: 2] # "mzn"
+# Other advanced slicing techniques:
+Word = "amazing"
+# Word = [:7] # word [0:7] – 'amazing'
+# Word = [0:] # word [0:7] – 'amazing'
+
 
 
 
