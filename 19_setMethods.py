@@ -1,0 +1,11 @@
+s={1,3,4,8, "Aman", "Apple"}
+print(s)
+s.add(400)
+print(s, type(s))
+print(len(s))
+s.remove(3)
+print(s, type(s))
+s.pop()
+print(s)
+s.clear()
+print(s)
